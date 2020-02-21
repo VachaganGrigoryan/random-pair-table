@@ -1,0 +1,59 @@
+QLabel {
+    font-size: 20px;
+    color: white;
+}
+
+QLineEdit { 
+    font-size: 15px;
+}
+
+QCheckBox#checkBox { color: white}
+
+QCheckBox#checkBox:hover, QCheckBox#checkBox:checked { color: #f20c3a }
+
+QPushButton {
+    font-size: 15px; 
+    color: #0e736e;
+}
+
+#teams, #players, #error, #tableId {
+    color: #f20c3a;
+}
+
+#tableId {
+    qproperty-alignment: AlignHCenter;
+}
+
+#removeBtn {
+    background-color: #f20c3a;
+}
+
+#addBtn {
+    background-color: #44e63c;
+}
+
+#addBtn:hover { 
+    color: white;
+    background-color: #0e736e;
+}
+
+#createBtn {
+    background-color: #4aa6b5;
+}
+
+#mainWidget {
+    background-color: #0e736e;
+    font-size: 13px;
+    gridline-color: gray
+}
+
+#cell {
+    padding: 5;
+    margin: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    border-left-width: 0px; 
+    border-right-width: 0px;    
+    qproperty-alignment: AlignHCenter;
+}
